@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Organic Cafe</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
+      <nav id="nav-pc">
+        <a href="index.html#concept">CONCEPT</a>
+        <a href="index.html#product">PRODUCT</a>
+        <a href="index.html#contact">CONTACT</a>
+      </nav>
+      <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く">
+      <nav id="nav-sp">
+        <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる">
+        <a href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">TOP</a>
+        <a href="index.html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a>
+        <a href="index.html#product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
+        <a href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
+      </nav>
+    </header>
+    <main>
+      <!-- メインコンテンツ -->
+      <section id="main-visual">
+        <div id="main-message">
+          <h1>Organic Cafe</h1>
+          <p>自家焙煎コーヒーが買えるお店</p>
+        </div>
+        <img src="images/main-image.jpg" alt="コーヒーをハンドドリップで淹れる画像">
+      </section>
+    </main>
+    <script>
+      document.getElementById("menu-sp").onclick = function() {
+        document.getElementById("nav-sp").style.display = 'block';
+      };
+      document.getElementById("close").onclick = function() {
+        document.getElementById("nav-sp").style.display = 'none';
+      };
+    </script>
+  </body>
+</html>

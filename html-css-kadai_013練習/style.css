@@ -1,140 +1,153 @@
 /* PC, スマホ共通スタイル */
 body {
-  color: black;
-  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
-}
-
-p {
-  font-size: 15px;
-}
-
-#main-visual > img {
-  width: 100%;
-}
-
-/*================
-PC用のスタイル 
-=================*/
-@media screen and (min-width: 768px) {
-  /* 横幅設定 */
-  body {
-    max-width: 1080px;
-    min-width: 960px;
-    margin: 0 auto;
-  }
-
-  /* ヘッダー */
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  /* ナビゲーションのレイアウト */
-  #nav-pc {
-    text-align: right;
-    font-size: 14px;
-    padding-top: 15px;
-  }
-
-  /* ナビゲーションのリンクの装飾設定 */
-  #nav-pc > a {
-    text-decoration: none;
-    margin-left: 20px;
-  }
- #nav-pc > a:link {
-      color: black;
-  }
-  #nav-pc > a:hover {
-      color: black;
-      text-decoration: underline;
-  }
-  #nav-pc > a:active {
-      color: black;
-  }
-  #menu-sp, #nav-sp {
-        display: none;}
-
-/* スマートフォン用のスタイル */
-@media screen and (max-width: 767px) {
-body {
-      min-width: 375px;
-      margin: 0;
-  }
-  #nav-pc {
-    display: none;
-  }
-  #menu-sp {
-    float: right;
-      padding: 0;
-      background: none;
-      border: none;
-      cursor: pointer;  }
-
-  /* スマートフォン用ナビゲーション */ 
-  #nav-sp {
-    background-color: #ce933e;   
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height:100%;
-    width: 100%;
-    z-index: 100;
+    color: black;
+    font-family: "Source Sans Pro", "Hiragino kaku Gothic ProN", Meiryo, Arial, sans-serif;
   }
   
-  ul{list-style: none;} 
-
-/* xボタン */
-  /* AI先生指導のもとコーディング */
-  #close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background: none;
-  border: none;
-  font-size: 24px;
-  color: #ffffff;
-  cursor: pointer;
+  p {
+    font-size: 15px;
   }
-
-  /* ナビゲーションロゴ */
-  #logo-sp {
-      /* margin: 80px 0 30px 20px; */
-      /* AI先生のもと上記消去、下記追記 */
-        display: block;
-        margin: 20px;
-        text-align: center;
+  
+  #main-visual > img {
+    width: 100%;
   }
-
-  #nav-sp > a {
-      display: block;
-  }
-
-  #nav-sp > a:link {
-      color: #ffffff;
-  }
-
-  #nav-sp > a:visited {
-      color: #ffffff;
-  }
-
-  #nav-sp > a:hover {
+  
+  /* PC用スタイル */
+  @media screen and (min-width: 768px) {
+       /* AI先生のもと下記記入 */
+       #menu-sp, #nav-sp {
+          display: none;}
+    }
+    /* 横幅設定 */
+    body {
+        max-width: 1080px;
+        min-width: 960px;
+        margin: 0 auto;
+    }
+  
+    /* ヘッダー */
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    /* ナビゲーションのレイアウト */
+    #nav-pc {
+        text-align: right;
+        font-size: 14px;
+        padding-top: 15px;
+    }
+  
+    /* ナビゲーションのリンクの装飾設定 */
+    #nav-pc > a {
+        text-decoration: none;
+        margin-left: 20px;
+    }
+  
+    #nav-pc > a:link {
+        color: black;
+    }
+  
+    #nav-pc > a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+  
+    #nav-pc > a:active {
+        color: black;
+    }
+  
+  /* スマートフォン用スタイル */
+  @media screen and (max-width: 767px) {
+    body {
+        min-width: 375px;
+        margin: 0;
+    }
+  
+    #nav-pc {
+        display: none;
+    }
+  
+    /* ハンバーガーメニュー */
+    #menu-sp {
+        /* float: right;
+        padding: 0; */
+        /* AI先生のもと上記消去、下記記入 */
+        float: right;
+        padding: 0;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+  
+    /* スマートフォン用ナビゲーション */
+    #nav-sp {
+        background-color: #ce933e;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: none;
+        z-index: 100;
+    }
+    
+  ul{list-style: none;}
+    
+  
+    /* xボタン */
+    /* AI先生指導のもとコーディング */
+    #close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
     color: #ffffff;
-      text-decoration: underline;
-  }
-
-  #nav-sp > a:active {
+    cursor: pointer;
+    }
+  
+    /* ナビゲーションロゴ */
+    #logo-sp {
+        /* margin: 80px 0 30px 20px; */
+        /* AI先生のもと上記消去、下記追記 */
+          display: block;
+          margin: 20px;
+          text-align: center;
+    }
+  
+    #nav-sp > a {
+        display: block;
+    }
+  
+    #nav-sp > a:link {
+        color: #ffffff;
+    }
+  
+    #nav-sp > a:visited {
+        color: #ffffff;
+    }
+  
+    #nav-sp > a:hover {
       color: #ffffff;
+        text-decoration: underline;
+    }
+  
+    #nav-sp > a:active {
+        color: #ffffff;
+    }
+  
+    #nav-sp .menu {
+        text-decoration: none;
+        display: block;
+        margin: 0 20px;
+        height: 44px;
+        font-size: 16px;
+        background-image: url("images/arrow.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
   }
-
-  #nav-sp .menu {
-      text-decoration: none;
-      display: block;
-      margin: 0 20px;
-      height: 44px;
-      font-size: 16px;
-      background-image: url("images/arrow.png");
-      background-repeat: no-repeat;
-      background-position: right top;
-  }
-}
+  
+  

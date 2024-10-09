@@ -20,34 +20,29 @@
         </nav>
 
         <!-- スマートフォン用メニューボタン -->
-        <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
-            <img src="images/button-menu.png" alt="ナビゲーションを開く">
-        </button>
-
+        <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+        
         <!-- スマートフォン用ナビゲーション -->
-        <div id="nav-sp">
-        <!-- AI先生指導のもとコーディング -->
-         <a href="index.html" id="logo-sp"><img src="images/arrow.png" alt="トップページに戻る"></a>
-         <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">×</button>
-         <nav>
-         <ul>
-            <li><a class="menu" href="index.html#concept">CONCEPT</a></li>
-            <li><a class="menu" href="index.html#product">PRODUCT</a></li>
-            <li><a class="menu" href="index.html#contact">CONTACT</a></li>
-        </ul>
-    </nav>
-
-            <!-- AI先生指導のもと消去
-            <button id="close" onclick="documentle.displa.getElementById('nav-sp').styy = 'none'">
-              ×</button>
-            <nav>
-                <ul>
-                    <li><a class="menu" href="index.html#concept">CONCEPT</a></li>
-                    <li><a class="menu" href="index.html#product">PRODUCT</a></li>
-                    <li><a class="menu" href="index.html#contact">CONTACT</a></li>
-                </ul>
-            </nav> -->
-        </div>
+        <nav id="nav-sp">
+              <ul>
+                 <li>
+                    <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                 </li>
+                 <li>
+                    <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                        <img src="images/logo-sp.png" alt="トップページに戻る">
+                      </a>
+                    </li>
+                    <li>
+                      <a class="menu" href="index.html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a>
+                    </li>
+                    <li>
+                      <a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
+                    </li>
+                    <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
+                    </li>
+                  </ul>
+                </nav>
 
 <!-- <nav id="nav-sp">
   <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる"> onclick="document.getElementById('nav-sp').style.display = 'none'">

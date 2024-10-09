@@ -92,7 +92,8 @@ body {
         z-index: 100;
     }
     
-  ul{list-style: none;}
+  ul{list-style: none;
+    padding-left:0;}
     
   
     /* xボタン */
@@ -113,8 +114,7 @@ body {
         /* margin: 80px 0 30px 20px; */
         /* AI先生のもと上記消去、下記追記 */
           display: block;
-          margin: 20px;
-          text-align: center;
+          margin: auto;
     }
   
     #nav-sp > a {

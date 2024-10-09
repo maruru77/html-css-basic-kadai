@@ -1,0 +1,16 @@
+html{font-family:"Arial", "Meiryo", sans-serif;
+   font-size: 20px; /*ルートサイズ*/
+  text-align: center;}
+h1{
+ font-family:"Josefin Sans", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: weight;
+ font-style: normal;
+ font-size:2rem;
+ letter-spacing:1.2em;
+ text-shadow: 2px 2px 2px #666666;
+ border-bottom: 3px solid rgb(115,115,114);
+}
+.fonttest{color:skyblue}
+.fonttest2{color: rgb(255,192,203)}
+#basic p{font-weight:bold;}

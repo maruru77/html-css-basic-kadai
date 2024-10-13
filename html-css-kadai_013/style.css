@@ -42,6 +42,7 @@ body {
     #nav-pc > a {
         text-decoration: none;
         margin-left: 20px;
+        color: black;
     }
   
     #nav-pc > a:link {
@@ -91,7 +92,7 @@ body {
         display: none;
         z-index: 100;
     }
-    
+   #nav-sp a{color: #ffffff;}
   ul{list-style: none;
      padding-left: 0;}
     
@@ -114,9 +115,11 @@ body {
         /* margin: 80px 0 30px 20px; */
         /* AI先生のもと上記消去、下記追記 */
           display: block;
-          margin: 20px;
-          /* text-align: center; 無効化*/
-          margin: auto; /*追記 */
+          margin: auto; 
+          margin-top: 60px;
+          margin-bottom: 30px;
+          margin-left: 20px;
+         
     }
   
     #nav-sp > a {

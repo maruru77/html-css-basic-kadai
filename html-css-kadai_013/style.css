@@ -39,17 +39,17 @@ body {
     }
   
     /* ナビゲーションのリンクの装飾設定 */
-    #nav-pc>a{
+    #nav-pc a{
         text-decoration: none;
         margin-left: 20px;
         color: black;
     }
   
-    #nav-pc>a:link {
+    #nav-pc a:link {
         color: black;
     }
   
-    #nav-pc>a:hover{
+    #nav-pc a:hover{
         color:black;
         text-decoration: underline;
     }
@@ -57,7 +57,7 @@ body {
     ｛color:black;
     ｝
   
-    #nav-pc > a:active {
+    #nav-pc a:active {
         color: black;
     }
   
@@ -122,31 +122,30 @@ body {
           margin-top: 60px;
           margin-bottom: 30px;
           margin-left: 20px;
-         
     }
   
-    #nav-sp>a{
+    #nav-sp a{
         display: block;
     }
   
-    #nav-sp>a:link{
+    #nav-sp a:link{
         color: #ffffff;
     }
   
-    #nav-sp>a:visited{
+    #nav-sp a:visited{
         color: #ffffff;
     }
   
-    #nav-sp>a:hover{
+    #nav-sp a:hover{
       color: #ffffff;
         text-decoration: underline;
     }
   
-    #nav-sp>a:active{
+    #nav-sp a:active{
         color: #ffffff;
     }
     
-    #nav-sp>a:visited｛
+    #nav-sp a:visited｛
     color:black;
     ｝
   
